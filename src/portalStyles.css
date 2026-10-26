@@ -1,0 +1,14 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f2f4f8; }
+.dashboard-page { max-width: 850px; margin: 30px auto; padding: 0 16px; }
+.login-card, .student-form, .student-table { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.login-card { max-width: 340px; margin: 100px auto; }
+.login-card input { display: block; width: 100%; box-sizing: border-box; margin-bottom: 10px; }
+.top-bar { display: flex; justify-content: space-between; align-items: center; }
+.student-form { display: flex; gap: 8px; flex-wrap: wrap; }
+.student-form input { flex: 1; min-width: 140px; }
+input { padding: 9px; border: 1px solid #ccc; border-radius: 5px; }
+button { padding: 9px 14px; border: 0; border-radius: 5px; background: #2563eb; color: #fff; cursor: pointer; }
+.delete-button { background: #dc2626; }
+.student-table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; }
+.error-message { color: #dc2626; margin: 0 0 10px; }
